@@ -1,0 +1,49 @@
+.appbar {
+  margin: 0;
+  padding: 0;
+}
+
+.appbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.appbar-link:hover {
+  background-color: #836b32;
+}
+
+.appbar-link {
+  margin: 0;
+  padding: 20px;
+}
+.body-container {
+  width: 100%;
+}
+
+.logo-image {
+  margin: -5px 10px 0 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.logo-text {
+  display: inline-block;
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
+}
+
+.body-container {
+  padding-bottom: 200px;
+}
+
+.toolbar {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-link {
+  text-decoration: none;
+}
