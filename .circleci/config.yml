@@ -1,4 +1,4 @@
-version: 2.0
+version: 2.1
 
 orbs:
   snyk: snyk/snyk@0.0.8
@@ -37,6 +37,6 @@ jobs:
       #  file: "output/coverage-final.json"
 
       - snyk/scan:
-        fail-on-issues: false
-        monitor-on-build: false
-        severity-threshold: high
+          fail-on-issues: false
+          monitor-on-build: false
+          severity-threshold: high
