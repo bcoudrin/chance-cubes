@@ -9,7 +9,7 @@ import i18n from "../../../i18n/i18n";
 
 test('renders Source code link', () => {
   i18n.changeLanguage('en');
-  const { getByText } = render(
+  /*const { getByText } =*/ render(
     <I18nextProvider i18n={i18n}>
       <MemoryRouter>
         <Footer />
