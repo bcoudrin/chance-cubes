@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/bcoudrin/chance-cubes.svg?style=svg)](https://circleci.com/gh/bcoudrin/chance-cubes) [![codecov](https://codecov.com/gh/bcoudrin/chance-cubes/branch/master/graph/badge.svg)](https://codecov.com/gh/bcoudrin/chance-cubes)
+[![CircleCI](https://circleci.com/gh/bcoudrin/chance-cubes.svg?style=svg)](https://circleci.com/gh/bcoudrin/chance-cubes) [![codecov](https://codecov.io/gh/bcoudrin/chance-cubes/branch/master/graph/badge.svg)](https://codecov.io/gh/bcoudrin/chance-cubes)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
