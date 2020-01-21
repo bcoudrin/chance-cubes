@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/bcoudrin/chance-cubes.svg?style=svg)](https://circleci.com/gh/bcoudrin/chance-cubes) [![codecov](https://circleci.com/gh/bcoudrin/chance-cubes/branch/master/graph/badge.svg)](https://circleci.com/gh/bcoudrin/chance-cubes)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
