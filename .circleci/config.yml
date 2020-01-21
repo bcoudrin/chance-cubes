@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   snyk: snyk/snyk@0.0.8
-#  codecov: codecov/codecov@1.0.2
+  codecov: codecov/codecov@1.0.2
 
 jobs:
   build:
