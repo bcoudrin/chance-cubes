@@ -1,6 +1,7 @@
-version: 2.1
+version: 2.0
 
-#orbs:
+orbs:
+  snyk: snyk/snyk@0.0.8
 #  codecov: codecov/codecov@1.0.2
 
 jobs:
@@ -25,9 +26,17 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests!
+      - run: yarn lint
+
+      - run: yarn size
+
       #- run: npm test -- --coverage --watchAll=false --coerageDirectory=coverage
       - run: yarn test
 
       #- codecov/upload:
       #  file: "output/coverage-final.json"
+
+      - snyk/scan:
+        fail-on-issues: false
+        monitor-on-build: false
+        severity-threshold: high
